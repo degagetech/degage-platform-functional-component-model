@@ -1,2 +1,32 @@
-# degage-platform-functional-component-model
-Provide a set of mechanisms so that the functional modules of different systems can work with each other and cooperate to build a brand new system.
+<img src="https://img.shields.io/badge/schedule-5%25-orange.svg?style=for-the-badge&logo=appveyor"/>
+
+<p align="center">
+<img width="150" src="docs/logo.png" alt="DataModel Logo">
+</p>
+
+## 功能组件模型（Functional-Component-Model） ##
+
+
+
+### 概要描述
+
+我们的开发人员在编码过程会不断的整理组织自己的代码，将其按方法、按类、按模块划分好，以使得后续的开发过程中，与自己、与他人能最大化的重复利用过去的劳动成果，节省时间和精力。
+
+​        但是在 **DEGAGE** 中，我们觉得还不够，也许可以重复利用更多，更加重要的是我们希望非开发人员也可以体验与享受到模块复用带来的好处，在这里我们将最大的可重复利用的单元扩展为 功能组件，一个功能组件也许包括后台业务的服务模块、前台UI模块、以及依赖的数据库环境等等，您的功能组件会被应用到不同的系统中，组件与组件之间相互结合形成一个全新的系统。
+
+​        可以预想到的愿景：一名项目/产品经理需要构建一个新的系统，首先他在我们的 功能组件 库中，找到了一些 功能组件 大致可以满足 70 % 需求，于是他决定尝试运行这个新的系统，在填写一些信息后，通过组件管理平台打包与分发，并依赖平台提供的测试环境，新系统顺利跑起来了。
+​        至于剩下 30%，我们有了新的组件。
+
+​        显而易见，它能极大提升我们新系统的构建效率，重复利用绝大部分劳动成果。
+​        更显而易见的问题是，如何才能重复利用，为此我们拟定出一个 **组件规范**，而且为了使您的功能组件最大程度上可以符合这个规范，建议您尽量使用 **DEGAGE** 平台中提供的相关技术。
+​        另一个问题，组件与组件之间如何协同运作。这也是 **组件规范** 中的一部分，按照此规范实现的组件可以无缝协同。 
+
+
+
+------
+
+若有兴趣加入我们一起完善此框架，您可以通过TIM扫描下面的二维码，并备注您最得意的开源项目地址。
+
+<p>
+<img width='150'  src="docs/contact-tim.jpg" >
+</p>
